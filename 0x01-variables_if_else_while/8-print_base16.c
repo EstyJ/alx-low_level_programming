@@ -9,6 +9,7 @@ int main(void)
 	int num = '0';
 	int alpha = 'a';
 
+
 	while (num <= '9')
 	{
 		putchar(num);
@@ -21,5 +22,5 @@ int main(void)
 		alpha++;
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
